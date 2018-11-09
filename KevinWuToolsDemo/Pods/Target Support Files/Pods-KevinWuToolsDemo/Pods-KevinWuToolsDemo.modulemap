@@ -1,0 +1,6 @@
+framework module Pods_KevinWuToolsDemo {
+  umbrella header "Pods-KevinWuToolsDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

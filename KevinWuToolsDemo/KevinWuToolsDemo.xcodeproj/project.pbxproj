@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E4F3437A95C4383ECDDB6D /* Pods_KevinWuToolsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30F318A35AFE565023CA0A0 /* Pods_KevinWuToolsDemo.framework */; };
+		67D870F82195773A00A1F4B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D870F72195773A00A1F4B7 /* AppDelegate.m */; };
+		67D871002195773B00A1F4B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67D870FF2195773B00A1F4B7 /* Assets.xcassets */; };
+		67D871032195773B00A1F4B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67D871012195773B00A1F4B7 /* LaunchScreen.storyboard */; };
+		67D871062195773B00A1F4B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D871052195773B00A1F4B7 /* main.m */; };
+		67D871102195773B00A1F4B7 /* KevinWuToolsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D8710F2195773B00A1F4B7 /* KevinWuToolsDemoTests.m */; };
+		67D8711B2195773B00A1F4B7 /* KevinWuToolsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D8711A2195773B00A1F4B7 /* KevinWuToolsDemoUITests.m */; };
+		67D87133219578F500A1F4B7 /* WCQDemoNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D87131219578F500A1F4B7 /* WCQDemoNavigationController.m */; };
+		67D87134219578F500A1F4B7 /* WCQDemoBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D87132219578F500A1F4B7 /* WCQDemoBaseViewController.m */; };
+		67D871372195796200A1F4B7 /* WCQIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D871362195796200A1F4B7 /* WCQIndexViewController.m */; };
+		67D8713F219580DC00A1F4B7 /* UIViewController+VCProfiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D8713A219580DC00A1F4B7 /* UIViewController+VCProfiler.m */; };
+		67D87140219580DC00A1F4B7 /* UINavigationController+WCQFullScreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D8713B219580DC00A1F4B7 /* UINavigationController+WCQFullScreenPopGesture.m */; };
+		67D87141219580DC00A1F4B7 /* UIGestureRecognizer+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D8713D219580DC00A1F4B7 /* UIGestureRecognizer+Block.m */; };
+		67D87145219581BE00A1F4B7 /* NextPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D87143219581BE00A1F4B7 /* NextPageViewController.m */; };
+		67D87146219581BE00A1F4B7 /* NextPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67D87144219581BE00A1F4B7 /* NextPageViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67D8710C2195773B00A1F4B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67D870EB2195773A00A1F4B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67D870F22195773A00A1F4B7;
+			remoteInfo = KevinWuToolsDemo;
+		};
+		67D871172195773B00A1F4B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67D870EB2195773A00A1F4B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67D870F22195773A00A1F4B7;
+			remoteInfo = KevinWuToolsDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21B08AFD8A95C0FBA8F21C11 /* Pods-KevinWuToolsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KevinWuToolsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-KevinWuToolsDemo/Pods-KevinWuToolsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		67D870F32195773A00A1F4B7 /* KevinWuToolsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KevinWuToolsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67D870F62195773A00A1F4B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		67D870F72195773A00A1F4B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		67D870FF2195773B00A1F4B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67D871022195773B00A1F4B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67D871042195773B00A1F4B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67D871052195773B00A1F4B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67D8710B2195773B00A1F4B7 /* KevinWuToolsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KevinWuToolsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67D8710F2195773B00A1F4B7 /* KevinWuToolsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KevinWuToolsDemoTests.m; sourceTree = "<group>"; };
+		67D871112195773B00A1F4B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67D871162195773B00A1F4B7 /* KevinWuToolsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KevinWuToolsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67D8711A2195773B00A1F4B7 /* KevinWuToolsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KevinWuToolsDemoUITests.m; sourceTree = "<group>"; };
+		67D8711C2195773B00A1F4B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67D8712F219578F500A1F4B7 /* WCQDemoBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCQDemoBaseViewController.h; sourceTree = "<group>"; };
+		67D87130219578F500A1F4B7 /* WCQDemoNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCQDemoNavigationController.h; sourceTree = "<group>"; };
+		67D87131219578F500A1F4B7 /* WCQDemoNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCQDemoNavigationController.m; sourceTree = "<group>"; };
+		67D87132219578F500A1F4B7 /* WCQDemoBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCQDemoBaseViewController.m; sourceTree = "<group>"; };
+		67D871352195796200A1F4B7 /* WCQIndexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCQIndexViewController.h; sourceTree = "<group>"; };
+		67D871362195796200A1F4B7 /* WCQIndexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCQIndexViewController.m; sourceTree = "<group>"; };
+		67D87139219580DC00A1F4B7 /* UIGestureRecognizer+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+Block.h"; sourceTree = "<group>"; };
+		67D8713A219580DC00A1F4B7 /* UIViewController+VCProfiler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+VCProfiler.m"; sourceTree = "<group>"; };
+		67D8713B219580DC00A1F4B7 /* UINavigationController+WCQFullScreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+WCQFullScreenPopGesture.m"; sourceTree = "<group>"; };
+		67D8713C219580DC00A1F4B7 /* UIViewController+VCProfiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+VCProfiler.h"; sourceTree = "<group>"; };
+		67D8713D219580DC00A1F4B7 /* UIGestureRecognizer+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+Block.m"; sourceTree = "<group>"; };
+		67D8713E219580DC00A1F4B7 /* UINavigationController+WCQFullScreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+WCQFullScreenPopGesture.h"; sourceTree = "<group>"; };
+		67D87142219581BE00A1F4B7 /* NextPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextPageViewController.h; sourceTree = "<group>"; };
+		67D87143219581BE00A1F4B7 /* NextPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextPageViewController.m; sourceTree = "<group>"; };
+		67D87144219581BE00A1F4B7 /* NextPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NextPageViewController.xib; sourceTree = "<group>"; };
+		B6666A0D938C6B1598127544 /* Pods-KevinWuToolsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KevinWuToolsDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KevinWuToolsDemo/Pods-KevinWuToolsDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F30F318A35AFE565023CA0A0 /* Pods_KevinWuToolsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KevinWuToolsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67D870F02195773A00A1F4B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E4F3437A95C4383ECDDB6D /* Pods_KevinWuToolsDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67D871082195773B00A1F4B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67D871132195773B00A1F4B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		057C66EABAB0CC9AA7555BFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F30F318A35AFE565023CA0A0 /* Pods_KevinWuToolsDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67D870EA2195773A00A1F4B7 = {
+			isa = PBXGroup;
+			children = (
+				67D870F52195773A00A1F4B7 /* KevinWuToolsDemo */,
+				67D8710E2195773B00A1F4B7 /* KevinWuToolsDemoTests */,
+				67D871192195773B00A1F4B7 /* KevinWuToolsDemoUITests */,
+				67D870F42195773A00A1F4B7 /* Products */,
+				F123FE902B382C1416784539 /* Pods */,
+				057C66EABAB0CC9AA7555BFE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		67D870F42195773A00A1F4B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67D870F32195773A00A1F4B7 /* KevinWuToolsDemo.app */,
+				67D8710B2195773B00A1F4B7 /* KevinWuToolsDemoTests.xctest */,
+				67D871162195773B00A1F4B7 /* KevinWuToolsDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67D870F52195773A00A1F4B7 /* KevinWuToolsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				67D870F62195773A00A1F4B7 /* AppDelegate.h */,
+				67D870F72195773A00A1F4B7 /* AppDelegate.m */,
+				67D871352195796200A1F4B7 /* WCQIndexViewController.h */,
+				67D871362195796200A1F4B7 /* WCQIndexViewController.m */,
+				67D87142219581BE00A1F4B7 /* NextPageViewController.h */,
+				67D87143219581BE00A1F4B7 /* NextPageViewController.m */,
+				67D87144219581BE00A1F4B7 /* NextPageViewController.xib */,
+				67D8712E219578C700A1F4B7 /* BaseVC */,
+				67D87138219580DC00A1F4B7 /* Tools */,
+				67D870FF2195773B00A1F4B7 /* Assets.xcassets */,
+				67D871012195773B00A1F4B7 /* LaunchScreen.storyboard */,
+				67D871042195773B00A1F4B7 /* Info.plist */,
+				67D871052195773B00A1F4B7 /* main.m */,
+			);
+			path = KevinWuToolsDemo;
+			sourceTree = "<group>";
+		};
+		67D8710E2195773B00A1F4B7 /* KevinWuToolsDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				67D8710F2195773B00A1F4B7 /* KevinWuToolsDemoTests.m */,
+				67D871112195773B00A1F4B7 /* Info.plist */,
+			);
+			path = KevinWuToolsDemoTests;
+			sourceTree = "<group>";
+		};
+		67D871192195773B00A1F4B7 /* KevinWuToolsDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67D8711A2195773B00A1F4B7 /* KevinWuToolsDemoUITests.m */,
+				67D8711C2195773B00A1F4B7 /* Info.plist */,
+			);
+			path = KevinWuToolsDemoUITests;
+			sourceTree = "<group>";
+		};
+		67D8712E219578C700A1F4B7 /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				67D8712F219578F500A1F4B7 /* WCQDemoBaseViewController.h */,
+				67D87132219578F500A1F4B7 /* WCQDemoBaseViewController.m */,
+				67D87130219578F500A1F4B7 /* WCQDemoNavigationController.h */,
+				67D87131219578F500A1F4B7 /* WCQDemoNavigationController.m */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		67D87138219580DC00A1F4B7 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				67D87139219580DC00A1F4B7 /* UIGestureRecognizer+Block.h */,
+				67D8713D219580DC00A1F4B7 /* UIGestureRecognizer+Block.m */,
+				67D8713C219580DC00A1F4B7 /* UIViewController+VCProfiler.h */,
+				67D8713A219580DC00A1F4B7 /* UIViewController+VCProfiler.m */,
+				67D8713E219580DC00A1F4B7 /* UINavigationController+WCQFullScreenPopGesture.h */,
+				67D8713B219580DC00A1F4B7 /* UINavigationController+WCQFullScreenPopGesture.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		F123FE902B382C1416784539 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6666A0D938C6B1598127544 /* Pods-KevinWuToolsDemo.debug.xcconfig */,
+				21B08AFD8A95C0FBA8F21C11 /* Pods-KevinWuToolsDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67D870F22195773A00A1F4B7 /* KevinWuToolsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67D8711F2195773B00A1F4B7 /* Build configuration list for PBXNativeTarget "KevinWuToolsDemo" */;
+			buildPhases = (
+				FA4371E77FA5869685FAF3FD /* [CP] Check Pods Manifest.lock */,
+				67D870EF2195773A00A1F4B7 /* Sources */,
+				67D870F02195773A00A1F4B7 /* Frameworks */,
+				67D870F12195773A00A1F4B7 /* Resources */,
+				2C18918171A8F934776AD581 /* [CP] Embed Pods Frameworks */,
+				2E09299EEA8E3F19E84DF952 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KevinWuToolsDemo;
+			productName = KevinWuToolsDemo;
+			productReference = 67D870F32195773A00A1F4B7 /* KevinWuToolsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67D8710A2195773B00A1F4B7 /* KevinWuToolsDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67D871222195773B00A1F4B7 /* Build configuration list for PBXNativeTarget "KevinWuToolsDemoTests" */;
+			buildPhases = (
+				67D871072195773B00A1F4B7 /* Sources */,
+				67D871082195773B00A1F4B7 /* Frameworks */,
+				67D871092195773B00A1F4B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67D8710D2195773B00A1F4B7 /* PBXTargetDependency */,
+			);
+			name = KevinWuToolsDemoTests;
+			productName = KevinWuToolsDemoTests;
+			productReference = 67D8710B2195773B00A1F4B7 /* KevinWuToolsDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67D871152195773B00A1F4B7 /* KevinWuToolsDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67D871252195773B00A1F4B7 /* Build configuration list for PBXNativeTarget "KevinWuToolsDemoUITests" */;
+			buildPhases = (
+				67D871122195773B00A1F4B7 /* Sources */,
+				67D871132195773B00A1F4B7 /* Frameworks */,
+				67D871142195773B00A1F4B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67D871182195773B00A1F4B7 /* PBXTargetDependency */,
+			);
+			name = KevinWuToolsDemoUITests;
+			productName = KevinWuToolsDemoUITests;
+			productReference = 67D871162195773B00A1F4B7 /* KevinWuToolsDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67D870EB2195773A00A1F4B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = wcq;
+				TargetAttributes = {
+					67D870F22195773A00A1F4B7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					67D8710A2195773B00A1F4B7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 67D870F22195773A00A1F4B7;
+					};
+					67D871152195773B00A1F4B7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 67D870F22195773A00A1F4B7;
+					};
+				};
+			};
+			buildConfigurationList = 67D870EE2195773A00A1F4B7 /* Build configuration list for PBXProject "KevinWuToolsDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67D870EA2195773A00A1F4B7;
+			productRefGroup = 67D870F42195773A00A1F4B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67D870F22195773A00A1F4B7 /* KevinWuToolsDemo */,
+				67D8710A2195773B00A1F4B7 /* KevinWuToolsDemoTests */,
+				67D871152195773B00A1F4B7 /* KevinWuToolsDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67D870F12195773A00A1F4B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67D871032195773B00A1F4B7 /* LaunchScreen.storyboard in Resources */,
+				67D87146219581BE00A1F4B7 /* NextPageViewController.xib in Resources */,
+				67D871002195773B00A1F4B7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67D871092195773B00A1F4B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67D871142195773B00A1F4B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C18918171A8F934776AD581 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KevinWuToolsDemo/Pods-KevinWuToolsDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KevinWuToolsDemo/Pods-KevinWuToolsDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E09299EEA8E3F19E84DF952 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KevinWuToolsDemo/Pods-KevinWuToolsDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA4371E77FA5869685FAF3FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KevinWuToolsDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67D870EF2195773A00A1F4B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67D8713F219580DC00A1F4B7 /* UIViewController+VCProfiler.m in Sources */,
+				67D87141219580DC00A1F4B7 /* UIGestureRecognizer+Block.m in Sources */,
+				67D87140219580DC00A1F4B7 /* UINavigationController+WCQFullScreenPopGesture.m in Sources */,
+				67D87134219578F500A1F4B7 /* WCQDemoBaseViewController.m in Sources */,
+				67D871062195773B00A1F4B7 /* main.m in Sources */,
+				67D87133219578F500A1F4B7 /* WCQDemoNavigationController.m in Sources */,
+				67D87145219581BE00A1F4B7 /* NextPageViewController.m in Sources */,
+				67D870F82195773A00A1F4B7 /* AppDelegate.m in Sources */,
+				67D871372195796200A1F4B7 /* WCQIndexViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67D871072195773B00A1F4B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67D871102195773B00A1F4B7 /* KevinWuToolsDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67D871122195773B00A1F4B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67D8711B2195773B00A1F4B7 /* KevinWuToolsDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67D8710D2195773B00A1F4B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67D870F22195773A00A1F4B7 /* KevinWuToolsDemo */;
+			targetProxy = 67D8710C2195773B00A1F4B7 /* PBXContainerItemProxy */;
+		};
+		67D871182195773B00A1F4B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67D870F22195773A00A1F4B7 /* KevinWuToolsDemo */;
+			targetProxy = 67D871172195773B00A1F4B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67D871012195773B00A1F4B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67D871022195773B00A1F4B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67D8711D2195773B00A1F4B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		67D8711E2195773B00A1F4B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67D871202195773B00A1F4B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6666A0D938C6B1598127544 /* Pods-KevinWuToolsDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = KevinWuToolsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wcq.KevinWuToolsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67D871212195773B00A1F4B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21B08AFD8A95C0FBA8F21C11 /* Pods-KevinWuToolsDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = KevinWuToolsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wcq.KevinWuToolsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		67D871232195773B00A1F4B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KevinWuToolsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wcq.KevinWuToolsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KevinWuToolsDemo.app/KevinWuToolsDemo";
+			};
+			name = Debug;
+		};
+		67D871242195773B00A1F4B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KevinWuToolsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wcq.KevinWuToolsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KevinWuToolsDemo.app/KevinWuToolsDemo";
+			};
+			name = Release;
+		};
+		67D871262195773B00A1F4B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KevinWuToolsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wcq.KevinWuToolsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KevinWuToolsDemo;
+			};
+			name = Debug;
+		};
+		67D871272195773B00A1F4B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KevinWuToolsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wcq.KevinWuToolsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KevinWuToolsDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67D870EE2195773A00A1F4B7 /* Build configuration list for PBXProject "KevinWuToolsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67D8711D2195773B00A1F4B7 /* Debug */,
+				67D8711E2195773B00A1F4B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67D8711F2195773B00A1F4B7 /* Build configuration list for PBXNativeTarget "KevinWuToolsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67D871202195773B00A1F4B7 /* Debug */,
+				67D871212195773B00A1F4B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67D871222195773B00A1F4B7 /* Build configuration list for PBXNativeTarget "KevinWuToolsDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67D871232195773B00A1F4B7 /* Debug */,
+				67D871242195773B00A1F4B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67D871252195773B00A1F4B7 /* Build configuration list for PBXNativeTarget "KevinWuToolsDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67D871262195773B00A1F4B7 /* Debug */,
+				67D871272195773B00A1F4B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67D870EB2195773A00A1F4B7 /* Project object */;
+}
